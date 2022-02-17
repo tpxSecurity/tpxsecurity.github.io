@@ -2,7 +2,7 @@
 title: "Análisis de subdominios"
 author: "Julio Alberto Romo T"
 date: 2022-2-03 23:22:00 +0800
-categories: [Seguridad,Tecnicas]
+categories: [Seguridad,Técnicas]
 tags: [Seguridad]
 
 image:
@@ -17,7 +17,7 @@ image:
 
 ### Pasivo
 
-La información se obtiene sin interacción directa con el objetivo mediante el uso de técnicas como búsquedas en Internet, rastreo de redes. Algunas de estas tecnicas involucran el uso de buscadores o indexadores de contenido.
+La información se obtiene sin interacción directa con el objetivo mediante el uso de técnicas como búsquedas en Internet, rastreo de redes. Algunas de estas Técnicas involucran el uso de buscadores o indexadores de contenido.
 
 Tecnica/Herramientas:
 
@@ -132,7 +132,7 @@ Se utilizan herramientas para examinar los archivos js(javascript) con el fin de
 
 https://github.com/jaeles-project/gospider
 
-## Tecnicas de obtención de ip
+## Técnicas de obtención de ip
 
 * Favicon ip
 
