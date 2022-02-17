@@ -164,7 +164,7 @@ Amplía y añade flexibilidad a la política del mismo origen (SOP). También pr
 
 La serialización es el proceso de convertir una estructura de datos compleja, como los objetos y su campo, aun formato más plano que pueda ser enviado y recibido como un flujo secuencial de bytes. Enviar datos complejos, por ejemplo, a través de una red, entre diferentes componentes de una aplicación, o en una llamada a la API. Cuando se serializa un objeto también se persiste su estado, en otras palabras, los atributos del objeto se conservan junto con sus valores asignados.
 
-## Insecure Deserealization SE REPITE MUCHO LA PALABRA BUSCA SINONIMOS Y RESUMIR
+## Insecure Deserealization
 
 Muchos ataques de deserialización se completan antes de que la deserialización haya terminado. Esto significa que el propio proceso de deserialización puede iniciar el ataque, incluso si la propia funcionalidad de la aplicación no interactúa directamente con el objeto malicioso.
 El impacto de una deserealizacion insegura puede ser grave, ya que proporciona un punto de entrada a una superficie de ataque enormemente aumentada. Permite a los atacantes reutilizar el código de la aplicación existente de manera perjudicial, lo que genera muchas otras vulnerabilidades, a menudo RCE (Ejecución remota de código).

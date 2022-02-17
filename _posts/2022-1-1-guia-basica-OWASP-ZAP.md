@@ -1,7 +1,7 @@
 ---
 title: "Guía básica OWASP ZAP"
 author: "Eduardo Rosales Meoño"
-date: 2022-2-15 23:22:00 +0800
+date: 2022-1-1 23:22:00 +0800
 categories: [Seguridad,Técnicas]
 tags: [Seguridad]
 
