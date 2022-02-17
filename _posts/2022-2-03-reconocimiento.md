@@ -25,7 +25,7 @@ Ahora se mostraran las diferentes técnicas para realizar la recopilación de in
 ## Análisis de subdominios
 
 La enumeración de subdominios es el proceso para encontrar subdominios de un objetivo.
-Para realizar este proceso se puede hacer uso de herramientas de internet como [dnsdumpster](https://dnsdumpster.com/), [RapidDNS](rapiddns.io/) entre otras, otra forma de enumeración es mediante tecnicas como:
+Para realizar este proceso se puede hacer uso de herramientas de internet como [dnsdumpster](https://dnsdumpster.com/), [RapidDNS](https://rapiddns.io/) entre otras, otra forma de enumeración es mediante tecnicas como:
 
 1. [Pasivo](/posts/analisis-subdominios/#pasivo)
 2. [Certificados SSL](/posts/analisis-subdominios/#certificados-ssl)
