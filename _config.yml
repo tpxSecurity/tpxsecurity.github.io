@@ -80,8 +80,7 @@ theme_mode:  dark # [light|dark]
 #
 # e.g. 'https://cdn.com'
 # https://cdn.jsdelivr.net/gh/tishcatpx/TishcaTpx.github.io@Develop
-img_cdn: 'https://cdn.jsdelivr.net/gh/tpxSecurity/tpxsecurity.github.io@gh-pages
-'
+img_cdn: 'https://cdn.jsdelivr.net/gh/tpxSecurity/tpxsecurity.github.io@gh-pages'
 
 # the avatar on sidebar, support local or CORS resources
 avatar: '/assets/img/tpx.png'
