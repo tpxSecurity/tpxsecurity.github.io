@@ -22,10 +22,6 @@ check() {
     exit -1
   fi
 
-  if [[ ! -f $GEM_SPEC ]]; then
-    echo -e "Error: Missing file \"$GEM_SPEC\"!\n"
-    exit -1
-  fi
 }
 
 release() {
