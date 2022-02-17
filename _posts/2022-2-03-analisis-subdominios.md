@@ -19,7 +19,7 @@ image:
 
 La información se obtiene sin interacción directa con el objetivo mediante el uso de técnicas como búsquedas en Internet, rastreo de redes. Algunas de estas Técnicas involucran el uso de buscadores o indexadores de contenido.
 
-Tecnica/Herramientas:
+Tecnicas/Herramientas:
 
 * Whois [ [Whoxy](https://www.whoxy.com), [Whoisxmlapi](https://www.whoisxmlapi.com), [Dnslytics](https://dnslytics.com/) ] (Obtener información acerca de los registradores de dominios, detectar dominios extra pertenecientes a la empresa).
 * Host Info [ [Host.io](https://Host.io) ] (Obtenención de información de registros A, AAAA, MX, NS, TXT, CNAME).

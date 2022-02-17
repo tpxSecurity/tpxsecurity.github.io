@@ -14,11 +14,11 @@ image:
 
 Durante la fase de recolección de información o mejor conocido como reconocimiento, se basa en la recopilación de información sobre el sistema o infraestructura a auditar. El objetivo es identificar datos desconocidos o no proporcionados por ejemplo:
 
-* direcciones de IP
-* topología de la red
-* tecnologías utilizadas
-* versiones de librerias
-* dispositivos red y más.
+* Direcciones de IP
+* Topología de la red
+* Tecnologías utilizadas
+* Versiones de librerias
+* Dsispositivos red y más.
 
 Ahora se mostraran las diferentes técnicas para realizar la recopilación de información:
 
