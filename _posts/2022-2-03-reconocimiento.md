@@ -35,9 +35,9 @@ Para realizar este proceso se puede hacer uso de herramientas de internet como [
    * Permutación
    * Recursión
 5. [Registros dns](/posts/analisis-subdominios/registros-dns)
-6. [Análisis de código fuente](/posts/analisis-subdominios/análisis-de-código-fuente)
-7. [Js scraping](/posts/analisis-subdominios/js-scraping)
-8. [Tecnicas de obtención de ip](/posts/analisis-subdominios/tecnicas-de-obtención-de-ip)
+6. [Análisis de código fuente](/posts/analisis-subdominios/#análisis-de-código-fuente)
+7. [Js scraping](/posts/analisis-subdominios/#js-scraping)
+8. [Tecnicas de obtención de ip](/posts/analisis-subdominios/#tecnicas-de-obtención-de-ip)
   
 ## Web
 

@@ -22,7 +22,7 @@ La información se obtiene sin interacción directa con el objetivo mediante el 
 Tecnica/Herramientas:
 
 * Whois [ [Whoxy](https://www.whoxy.com), [Whoisxmlapi](https://www.whoisxmlapi.com), [Dnslytics](https://dnslytics.com/) ] (Obtener información acerca de los registradores de dominios, detectar dominios extra pertenecientes a la empresa).
-* Host Info [ [Host.io](Host.io) ] (Obtenención de información de registros A, AAAA, MX, NS, TXT, CNAME).
+* Host Info [ [Host.io](https://Host.io) ] (Obtenención de información de registros A, AAAA, MX, NS, TXT, CNAME).
 * [CIDR Discover](https://www.manageengine.com/network-monitoring/faq/cidr.html)
 * Subdomain Discovery [ [DNS Dumpster](https://dnsdumpster.com), [RapidDNS](https://rapiddns.io), [SubFinder](https://github.com/projectdiscovery/subfinder) ]
 * [Wayback Machine](https://web.archive.org)
