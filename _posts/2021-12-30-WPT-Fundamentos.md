@@ -1,9 +1,9 @@
 ---
-title: "Fundamentos"
+title: "2.- Fundamentos"
 author: 
   name: Julio Romo T
   link: https://github.com/TishcaTpx
-date: 2021-12-09 23:22:00 +0800
+date: 2021-12-30 00:00:00 +0000
 categories: [Seguridad]
 tags: [Seguridad]
 image:
@@ -13,7 +13,7 @@ image:
   alt: Fundamentos
 ---
 
-Antes de introducirnos dentro del mundo de la Ciberseguridad es necesario revisar las especialidades existentes:
+Antes de introducirnos dentro del mundo de la Ciberseguridad es necesario hacer mención las especialidades existentes:
 
 * Seguridad en la red e infraestructura
 * Seguridad en aplicaciónes Web

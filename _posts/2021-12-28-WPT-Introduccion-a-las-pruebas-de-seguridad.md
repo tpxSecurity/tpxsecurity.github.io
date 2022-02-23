@@ -2,12 +2,11 @@
 title: "4.- Introducción a las pruebas de seguridad"
 author: 
   name: Eduardo Rosales Meoño
-  link: https://github.com/TishcaTpx
-date: 2021-12-09 23:22:00 +0800
+date: 2021-12-28 00:00:00 +0000
 categories: [Seguridad]
 tags: [Seguridad]
 image:
-  src: 
+  src: /assets/img/7f81085e1dc317d445db7d06780e0e17.png
   width: 800
   height: 500
   alt: Introducción a las pruebas de seguridad
@@ -17,14 +16,11 @@ image:
 
 * OSSTMM
 
-    Ostmm (Metodología de prueba de código abierto) es un marco detallado bien conocido en la industria. Este marco ofrece un método científico para la prueba y la vulnerabilidad de la invasión de la red.
-    La guía perfecta del equipo de desarrollo de redes y productos importantes determina la vulnerabilidad de la seguridad de la red.
-    La metodología OSTMM permite un avance de las pruebas técnicas y de adaptación de la organización que corresponden a necesidades específicas. Las evaluaciones personales proporcionan una visión general de la seguridad de la red y las soluciones de confianza que toman las decisiones apropiadas. Esto es para proteger a su organización.
+    Ostmm (Metodología de prueba de código abierto) Esta metodologia se relaciona con la seguridad operativa. Se basa en el conocimiento y la medición de las operaciones de seguridad empresarial. Con la ayuda del método OSSTMM, las auditorías de seguridad pueden obtener una comprensión más profunda de cómo se conectan las cosas.
 
 * OWASP
 
-    El OWASP (Open Web Application Security Project) es otro estándar reconocido que permite a las organizaciones controlar las vulnerabilidades de las aplicaciones. Este framework ayuda a identificar vulnerabilidades en aplicaciones web y móviles. Al mismo tiempo, el OWASP también complica los defectos lógicos que surgen en las prácticas de desarrollo inseguras.
-    La guía actualizada de OWASP proporciona más de 66 controles para identificar y evaluar vulnerabilidades con numerosas funcionalidades que se encuentran en las últimas aplicaciones. Sin embargo, equipa a las organizaciones con los recursos para asegurar sus aplicaciones y posibles pérdidas comerciales. Al aprovechar el estándar OWASP en la evaluación de seguridad, el hacker ético garantiza vulnerabilidades casi nulas. Además, también mejora las recomendaciones realistas a características y tecnologías específicas en las aplicaciones.
+    El OWASP (Open Web Application Security Project) Es una técnica de auditoría web de seguridad abierta y colaborativa que se centra en el análisis de seguridad de las aplicaciones web y se utiliza como referencia para las auditorías de seguridad. Todas las auditorías de seguridad web se basan en los métodos de auditoría de OWASP para analizar y evaluar los riesgos.
 
 * NIST
 

@@ -1,7 +1,9 @@
 ---
 title: "3.- Introducción la seguridad"
-author: "Julio Alberto Romo T"
-date: 2021-12-09 23:22:00 +0800
+author: 
+  name: Julio Romo T
+  link: https://github.com/TishcaTpx
+date: 2021-12-29 00:00:00 +0000
 categories: [Seguridad]
 tags: [Seguridad]
 image:

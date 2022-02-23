@@ -1,7 +1,9 @@
 ---
 title: "Seguridad en la red e infraestructura - Cheat Sheet"
-author: "Julio Alberto Romo T"
-date: 2021-12-09 23:22:00 +0800
+author: 
+  name: Julio Romo T
+  link: https://github.com/TishcaTpx
+date: 2020-12-31 00:00:00 +0800
 categories: [Seguridad]
 tags: [Seguridad]
 pin: true

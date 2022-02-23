@@ -1,9 +1,9 @@
 ---
 title: "5.- Conociendo al atacante"
 author: 
-  name: Eduardo Rosales Meoño
+  name: Julio Romo T
   link: https://github.com/TishcaTpx
-date: 2021-12-09 23:22:00 +0800
+date: 2021-12-27 00:00:00 +0000
 categories: [Seguridad]
 tags: [Seguridad]
 image:
