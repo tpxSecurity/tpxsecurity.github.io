@@ -18,6 +18,17 @@ image:
 
     Ostmm (Metodología de prueba de código abierto) Esta metodologia se relaciona con la seguridad operativa. Se basa en el conocimiento y la medición de las operaciones de seguridad empresarial. Con la ayuda del método OSSTMM, las auditorías de seguridad pueden obtener una comprensión más profunda de cómo se conectan las cosas.
 
+    Esta metodología está dividida en 4 grupos clave:
+
+    El alcance: Se define un proceso que recolecta de información en todos los bienes en el ambiente objetivo.
+
+    El canal: Nos determinar el tipo de comunicación e interacción que habrá con los bienes los cuales pueden ser físicos, espectros y comunicativos. Todos estos canales representan un único set de los componentes de seguridad y deben ser testados y verificados durante el periodo de evaluación.
+
+    El índice: Clasifica bienes objetivo que se corresponde con sus particulares identificaciones como la dirección MAC o la dirección IP.
+    
+    El vector: Se concluye en qué dirección puede el perito informático evaluar y analizar cada bien funcional.
+
+
 * OWASP
 
     El OWASP (Open Web Application Security Project) Es una técnica de auditoría web de seguridad abierta y colaborativa que se centra en el análisis de seguridad de las aplicaciones web y se utiliza como referencia para las auditorías de seguridad. Todas las auditorías de seguridad web se basan en los métodos de auditoría de OWASP para analizar y evaluar los riesgos.
@@ -40,13 +51,13 @@ image:
     Estos estándares le permiten al pentester planificar y ejecutar cada paso del proceso de prueba de penetración. Por lo tanto, satisface todos los requisitos del proceso de prueba de penetración. Como hacker ético, si estás utilizando diferentes herramientas, ISSAF es un framework crucial. Por ejemplo, vincula cada paso a una herramienta específica y, por lo tanto, reduce la complejidad.
     ISSAF ofrece información adicional sobre varios vectores de ataque, así como el resultado de la vulnerabilidad después de la explotación. Toda esta información permite a los evaluadores planificar un ataque avanzado que garantiza beneficios al tiempo que protege los sistemas de los ataques cibernéticos.
 
-## 4.2.- Fases de una prueba de seguridad.
+## 4.2.- Fases de una prueba de seguridad
 
 Una **prueba de penetración** ( también conocida como pentest), se lleva acabo bajo una metodología que permite identificar las vulnerabilidades que afectan el sistema o aplicación (o aquello que se audite), mediante la explotación controlada de estas, con el fin de entregar un reporte que ayude a remediar y mejorar la seguridad de la información.
 
 En esta sección, aprenderemos sobre las pruebas de penetración y lo que implican.
 
-* [Reconocimiento](/posts/reconocimiento):  
+* [Reconocimiento](/posts/WPT-Auditoria-orientada-a-entornos-Web/#751--reconocimiento-aplicaciones-web):  
     La fase de recolección de información o mejor conocida como reconocimiento,se basa el la recopilación de información sobre el sistema o infraestructura a auditar. El objetivo es recolectar un cantidad inmensa de datos, la cual sera utilizada posteriormente.
 
 * Busqueda de vulnerabilidades:  
@@ -65,6 +76,6 @@ En esta sección, aprenderemos sobre las pruebas de penetración y lo que implic
 
 **Caja negra (“Black Box”):** se basan en que los pentesters no disponen de conocimiento previo acerca de la infraestructura que va a ser probada. Es el tipo de test de intrusión más parecido a un ataque real. Suele ser realizado por personal especializado externo a las organizaciones.
 
-**Caja blanca (“White Box”):** se trata del test más completo ya que se parte de un conocimiento completo previo de la infraestructura a ser probada. Normalmente lo realiza personal interno de las organizaciones o se contrata a alguien externo si la empresa no dispone de trabajadores especializados. 
+**Caja blanca (“White Box”):** se trata del test más completo ya que se parte de un conocimiento completo previo de la infraestructura a ser probada. Normalmente lo realiza personal interno de las organizaciones o se contrata a alguien externo si la empresa no dispone de trabajadores especializados.
 
 **Caja gris (“Grey Box”):** se parte de un conocimiento parcial previo de la infraestructura objetivo del test. Suele ser el tipo de pentest recomendado cuando se contrata a empresas especializadas.
