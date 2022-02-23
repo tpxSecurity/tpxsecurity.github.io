@@ -57,7 +57,7 @@ Una **prueba de penetración** ( también conocida como pentest), se lleva acabo
 
 En esta sección, aprenderemos sobre las pruebas de penetración y lo que implican.
 
-* [Reconocimiento](/posts/WPT-Auditoria-orientada-a-entornos-Web/#751--reconocimiento-aplicaciones-web):  
+* Reconocimiento:  
     La fase de recolección de información o mejor conocida como reconocimiento,se basa el la recopilación de información sobre el sistema o infraestructura a auditar. El objetivo es recolectar un cantidad inmensa de datos, la cual sera utilizada posteriormente.
 
 * Busqueda de vulnerabilidades:  
