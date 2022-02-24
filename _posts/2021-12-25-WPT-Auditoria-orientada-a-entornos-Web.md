@@ -125,7 +125,7 @@ Favicon es la imagen de la aplicación la cual si se convierte a md5 obtendremos
 
 #### 7.5.1.3.5.- Gihub dorks
 
-### 7.5.2 Explotación Aplicaciones Web
+### 7.5.2.- Explotación Aplicaciones Web
 
 #### 7.5.2.1- SQL Injection
 
