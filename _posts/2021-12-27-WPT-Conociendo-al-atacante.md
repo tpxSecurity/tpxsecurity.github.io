@@ -17,21 +17,21 @@ Dentro del mundo de la ciberseguridad cualquiera puede ser un atacante, realment
 
 ## 5.1.- Formas de actuar de un atacante
 
-Los atacantes tienen 3 principales motivaciónes para realizar un hackeo, el primero y mas conocido es la "ganancia" siempre buscan tener algo que les pueda beneficiar, esto puede ser tener acceso y crear una botnet, secuestrar el servidor y pedir rescate entre otras. Otro motivo suele ser el "ego", los  atacantes en cuanto mas grande la istitución e imposible parezca el poder acceder solo es un reto mas para ellos. El tercero suele ser simplemente la curiosidad de saber que puede existir dentro de sus sistemas. Tambien dentro de estas caracteristicas existen algunas mas complicadas como la venganza de empleados y algunos casos especiales.
+Los atacantes tienen 3 principales motivaciónes para realizar un hackeo, el primero y más conocido es la "ganancia" siempre buscan tener algo que les pueda beneficiar, esto puede ser tener acceso y crear una botnet, secuestrar el servidor y pedir rescate entre otras. Otro motivo suele ser el "ego", los  atacantes en cuanto mas grande la institución e imposible parezca el poder acceder solo es un reto más para ellos. El tercero suele ser simplemente la curiosidad de saber que puede existir dentro de sus sistemas. Tambien dentro de estas características existen algunas ms complicadas como la venganza de empleados y algunos casos especiales.
 
 ## 5.2.- Pensamiento vertical y horizontal
 
-A lo largo de la vida las instituciones nos han enseñado a seguir el mismo camino para realizar una actividad, esto se denomina como pensamiento vertical. Su caracteristica principal es el cual se realiza la actividad sin salirse del camino. A diferencia lo que es el pensamiento horizontal trata de abarcar mas opciones dentro de la realización de las actividades, probando diferentes metodos de acceso para lograr el objetivo.
+A lo largo de la vida las instituciones nos han enseñado a seguir el mismo camino para realizar una actividad, esto se denomina como pensamiento vertical. Su caracteristica principal es el cual se realiza la actividad sin salirse del camino. A diferencia lo que es el pensamiento horizontal trata de abarcar más opciones dentro de la realización de las actividades, probando diferentes métodos de acceso para lograr el objetivo.
 
-Una forma de ver esto de una forma mas tecnica seria al momento de realizar un pentest a :
+Una forma de ver esto de una forma más técnica sería al momento de realizar un pentest a :
 
-* google.com
+* Google.com
 
-normalmente solo nos enfocariamos en "google.com/*" todo lo que pueda estar dentro. Pero ... que sucede cuando sabemos que esta empresa es grande y suele tener mas sistemas como:
+normalmente solo nos enfocariamos en "Google.com/*" todo lo que pueda estar dentro. Pero ... que sucede cuando sabemos que esta empresa es grande y suele tener mas sistemas como:
 
-* youtube
-* android
-* waze
+* Youtube
+* Android
+* Waze
 * Snapseed
 
 Aunque estos sistemas no pertenecen directamente al domino "google.com" el atacante suele añadirlos a su alcance dado que existe la posibilidad de encontrar un acceso a los servicios de google y obtener un mayor acceso.
@@ -49,3 +49,5 @@ Hasta el momento ya tenemos conocimiento de normalmente como opera un atacante,
 * DDOS
 
 ## 5.4.- Ataques por capa OSI
+
+![ Ataques por capa OSI ](/assets/img/posts/osi-attacks.png)

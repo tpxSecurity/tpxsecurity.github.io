@@ -16,18 +16,17 @@ image:
 
 * OSSTMM
 
-    Ostmm (Metodología de prueba de código abierto) Esta metodologia se relaciona con la seguridad operativa. Se basa en el conocimiento y la medición de las operaciones de seguridad empresarial. Con la ayuda del método OSSTMM, las auditorías de seguridad pueden obtener una comprensión más profunda de cómo se conectan las cosas.
+    Ostmm (Metodología de prueba de código abierto) Esta metodología se relaciona con la seguridad operativa. Se basa en el conocimiento y la medición de las operaciones de seguridad empresarial. Con la ayuda del método OSSTMM, las auditorías de seguridad pueden obtener una comprensión más profunda de cómo se conectan las cosas.
 
     Esta metodología está dividida en 4 grupos clave:
 
-    El alcance: Se define un proceso que recolecta de información en todos los bienes en el ambiente objetivo.
+    El alcance: Se define un proceso que recolecta de información en todos los activos dentro de la infraestructura.
 
-    El canal: Nos determinar el tipo de comunicación e interacción que habrá con los bienes los cuales pueden ser físicos, espectros y comunicativos. Todos estos canales representan un único set de los componentes de seguridad y deben ser testados y verificados durante el periodo de evaluación.
+    El canal: Nos determina el tipo de comunicación e interacción que habrá con los bienes los cuales pueden ser físicos, espectros y comunicativos. Todos estos canales representan un único set de los componentes de seguridad y deben ser testados y verificados durante el período de evaluación.
 
     El índice: Clasifica bienes objetivo que se corresponde con sus particulares identificaciones como la dirección MAC o la dirección IP.
-    
-    El vector: Se concluye en qué dirección puede el perito informático evaluar y analizar cada bien funcional.
 
+    El vector: Se concluye en qué dirección puede el perito informático evaluar y analizar cada bien funcional.
 
 * OWASP
 
@@ -36,9 +35,13 @@ image:
 * NIST
 
     El NIST (National Institute of Standards and Technology) varía los manuales de seguridad informática que difieren de otros manuales de seguridad de la información. En cierto modo, NIST ofrece pautas más específicas intrínsecas a las pruebas de penetración para mejorar la ciberseguridad general de una organización.
-    La mayoría de las organizaciones y socios con sede en Estados Unidos deben cumplir con el cumplimiento normativo del framework NIST. Además, el estándar garantiza la seguridad de la información en industrias como la banca, las comunicaciones y la energía.
-    Existe la probabilidad de personalizar los estándares para satisfacer tus necesidades específicas. Significativamente, NIST contribuye a la innovación de seguridad en las industrias estadounidenses.
-    Para cumplir con los estándares NIST, las organizaciones deben realizar pruebas de penetración en sus aplicaciones y redes. Sin embargo, las organizaciones deben seguir pautas preestablecidas. Estas pautas aseguran que las organizaciones cumplan con sus obligaciones de seguridad cibernética y mitigan los riesgos de posibles ataques cibernéticos.
+    Este Marco, también conocido como Cibersecurity Framework, está compuesto por tres partes:
+
+    El núcleo
+
+    Los niveles de implementación
+
+    Los perfiles del Marco
 
 * PTES
 
@@ -60,14 +63,14 @@ En esta sección, aprenderemos sobre las pruebas de penetración y lo que implic
 * Reconocimiento:  
     La fase de recolección de información o mejor conocida como reconocimiento,se basa el la recopilación de información sobre el sistema o infraestructura a auditar. El objetivo es recolectar un cantidad inmensa de datos, la cual sera utilizada posteriormente.
 
-* Busqueda de vulnerabilidades:  
+* Búsqueda de vulnerabilidades:  
     Un escaneo de vulnerabilidades es una práctica de seguridad que escanea un sistema en busca de vulnerabilidades potenciales que puedan ser utilizadas por un atacante.
 
 * Explotación:  
-    La fase de explotación es el proceso de atacar al objetivo. Esta fase consta de varios pasos que se centran realizar una explotación a los serviciós del objetivo, para lograr la ejecución de código y obtener arbitrario restricciones al sistema.
+    La fase de explotación es el proceso de atacar al objetivo. Esta fase consta de varios pasos que se centran realizar una explotación a los serviciós del objetivo, para lograr la ejecución de código arbitrario y obtener  privilegios en el sistema.
 
 * Post-Explotación:  
-    La post explotación es una fase del proceso de pruebas de penetración la cual  se realiza una vez se logra obtener un acceso mediante la explotación, esta fase realiza con el fin de obtener un mayor privilegio al obtenido anteriormente.
+    La post explotación es una fase del proceso de pruebas de penetración, la cual  se realiza una vez que se logra obtener un acceso mediante la explotación, en esta fase se realiza con el fin de obtener un mayor privilegio al obtenido anteriormente.
 
 * Reporte:  
     Tras la finalización de las fases, se realiza un entregable en el cual se muestra lo realizado, ademas de los descubrimiento o vulnerabilidades detectadas.
@@ -76,6 +79,6 @@ En esta sección, aprenderemos sobre las pruebas de penetración y lo que implic
 
 **Caja negra (“Black Box”):** se basan en que los pentesters no disponen de conocimiento previo acerca de la infraestructura que va a ser probada. Es el tipo de test de intrusión más parecido a un ataque real. Suele ser realizado por personal especializado externo a las organizaciones.
 
-**Caja blanca (“White Box”):** se trata del test más completo ya que se parte de un conocimiento completo previo de la infraestructura a ser probada. Normalmente lo realiza personal interno de las organizaciones o se contrata a alguien externo si la empresa no dispone de trabajadores especializados.
+**Caja blanca (“White Box”):** se trata del test más completo ya que se parte de un conocimiento completo previo de la infraestructura a ser probada. Normalmente lo realiza personal interno de las organizaciones o se contrata a alguien externo si la empresa no dispone de personal especializados.
 
 **Caja gris (“Grey Box”):** se parte de un conocimiento parcial previo de la infraestructura objetivo del test. Suele ser el tipo de pentest recomendado cuando se contrata a empresas especializadas.

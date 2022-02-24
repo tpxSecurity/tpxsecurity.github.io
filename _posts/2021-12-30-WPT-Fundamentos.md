@@ -13,7 +13,7 @@ image:
   alt: Fundamentos
 ---
 
-Antes de introducirnos dentro del mundo de la Ciberseguridad es necesario hacer mención las especialidades existentes:
+Antes de profundizar en temas dentro del mundo de la Ciberseguridad es necesario hacer mención las especialidades existentes:
 
 * Seguridad en la red e infraestructura
 * Seguridad en aplicaciónes Web
@@ -21,21 +21,21 @@ Antes de introducirnos dentro del mundo de la Ciberseguridad es necesario hacer 
 * Análisis Forence
 * Detección y Respuesta
 
-Dentro de los temas menciónados anteriormente dentro de esta sección nos enfocaremos especificamente en  **Seguridad en aplicaciónes Web**.
-Los conocimientos base para ser un auditor de aplicaciones web pueden llegar a ser bastante aplios, con base a la existencia de multiples lenguajes de programación Backend y Frontend, de igual forma el reconocer las configuraciones posibles o necesarias para el correcto funcionamiento del servico web.
+Dentro de los temas menciónados anteriormente nos enfocaremos especificamente en  **Seguridad en aplicaciónes Web**.
+Los conocimientos base para ser un auditor de aplicaciones web pueden llegar a ser bastante amplios, con base a la existencia de múltiples lenguajes de programación: Backend y Frontend, de igual forma el reconocer las configuraciones posibles o necesarias para el correcto funcionamiento del servicio web.
 
 ## 2.1.- Funcionamiento de las redes
 
-El primer conocimiento base de un auditor Web o pentester Web se basa en el entendimiento de las redes y como viaja la información atravez de la red. Los conocimientos de ello brinda al pentester un panorama mas amplio de ataque, mejorando la efectividad dentro delas pruebas a realizar.
+El primer conocimiento base de un auditor Web o pentester Web se basa en el entendimiento de las redes y como viaja la información a travéz de la red. Los conocimientos de ello brinda al pentester un panorama más amplio de ataque, mejorando la efectividad dentro de las pruebas a realizar.
 
 ### 2.1.1.- Funcionamiento de la Red/Modelo OSI
 
-  La meta en el standar modelo OSI fue crear un modelo de referencia que permitiera la comunicación entre diversos dispositivos, tecnologias y brindar compatibilidad.
+  La meta en el estandar modelo OSI fue crear un modelo de referencia que permitiera la comunicación entre diversos dispositivos, tecnologias y brindar compatibilidad.
   Estas capas representan las fases en el establecimiento de cada conexión pensando en como los paquetes seran enviados, el estandar fue creado para rastrear como la conexión fue estructurada y brindarnos visibilidad.
 
-* Capa 1: **Fisica**
+* Capa 1: **Física**
 
-    Si alguna vez ha tenido que solucionar problemas electrónicos, la capa 1 es donde respondería la pregunta "¿Está enchufado?" La capa 1 también incluye diseños de pines, voltajes, enlaces de radiofrecuencia y otros requisitos físicos.
+    Si alguna vez ha tenido que solucionar problemas electrónicos, la capa 1 es donde respondería la pregunta "¿Está enchufado?". La capa 1 también incluye diseños de pines, voltajes, enlaces de radiofrecuencia y otros requisitos físicos.
 
 * Capa 2: **Enlace de datos**
 
@@ -63,11 +63,11 @@ El primer conocimiento base de un auditor Web o pentester Web se basa en el ente
 
 ### 2.1.2.- ¿Qué es un servicio?
 
-Los servicios son aplicaciónes o funciónes las cuales nos permiten realizar determinadas taread dentro de la red mediante el uso de protocolos. Estos suelen brindar desde el envio de un correo o visualización de una pagina web hasta la administración remota de un equipo. Mostraremos algunos de muchos de los serviciós mas comunes usados en el dia a dia dentro de la red.
+Los servicios son aplicaciónes o funciónes las cuales nos permiten realizar determinadas tareas dentro de la red mediante el uso de protocolos. Estos suelen brindar desde el envío de un correo o visualización de una página web hasta la administración remota de un equipo. Mostraremos algunos de muchos de los serviciós más comunes usados en el día a día dentro de la red.
 
 Correo electrónico (e-mail). Utiliza el protocolo SMTP ("Simple Mail Transfer Protocol"), para la recepción y envío.
 
-Emulación de terminal TELNET. Se utiliza para conectar a equipos remotos mediante la Red emulando un terminal del equipo al que se realiza la conexión.
+Emulación de terminal TELNET. Se utiliza para conectar a equipos remotos mediante la Red emulando una terminal del equipo al que se realiza la conexión.
 
 Transferencias de ficheros: Utiliza el protocolo FTP ("File Transfer Protocol"), se usa para enviar o recibir ficheros (de cualquier tipo) entre dos equipos conectados a la red.
 
@@ -88,7 +88,7 @@ Servicios "R".  Tales como rlogin, rsh y otros.  Utilizan la idea de acuerdos en
 
 ### 2.1.3.- ¿Qué es un protocolo?
 
-Loas protocolos son una serie de estándares y politcas formales, conformados por procedimientos, restricciones y formatos que permiten el intecambo de paquetes dentro de una red.
+Los protocolos son una serie de estándares y politcas formales, conformados por procedimientos, restricciones y formatos que permiten el intecambo de paquetes dentro de una red.
 
 Protocolos de la capa 1 - Capa física
 
@@ -156,7 +156,7 @@ Protocolos de la capa 7 - Aplicación
 * HTTP: Protocolo de transferencia de hipertexto
 * HTTPS: Protocolo de transferencia de hipertexto seguro
 * POP3: Protocolo de oficina de correo
-* SMTP: protocolo de transferencia simple de correo
+* SMTP: Protocolo de transferencia simple de correo
 * Telnet: Protocolo de telecomunicaciones de red
 
 ### 2.1.4.- ¿Cómo viaja tu información por Internet?
@@ -170,7 +170,7 @@ Internet funciona mediante el uso de servidores para almacenar datos y luego con
 Servicios comunes para las aplicaciones.
 Hay muchos sistemas operativos diferentes en uso hoy en día. Los más populares son Microsoft Windows, Apple Mac OS y Linux.
 
-Sitemas operativos mas comunes en el mundo de internet:
+Sistemas operativos más comunes en el mundo de internet:
 
 * Microsoft Windows Server
   * Core
@@ -185,7 +185,7 @@ Sitemas operativos mas comunes en el mundo de internet:
 
 ### 2.2.1.- Sistemas Operativos orientados a pruebas de seguridad
 
-Uno de los mas grandes mitos dentro del mundo de la ciberseguridad es "para hackerar se necesita usar Kali Linux" esto se da gracias a la enorme comunidad y la dibulgación en redes sociales. Si bien es cierto que la mayoria de los hackers eticos y pentesters hacen uso de el, a si como de otras distribuciónes. Realmente el uso es por la integración previa de herramientas, sinembargo el sistema raiz a utilizar es linux esto dadas las caracteristicas que este tiene, las cuales permiten tener un gran control del hardware.
+Uno de los más grandes mitos dentro del mundo de la ciberseguridad es "para hackerar se necesita usar Kali Linux" esto se da gracias a la enorme comunidad y la divulgación en redes sociales. Si bien es cierto que la mayoria de los hackers éticos y pentesters hacen uso de el, a si como de otras distribuciónes. Realmente el uso es por la integración previa de herramientas, sin embargo el sistema raiz a utilizar es linux esto dadas las características que este tiene, las cuales permiten tener un gran control del hardware.
 
 Sistemas Operativos dirigidos a pentesting recomendados:
 

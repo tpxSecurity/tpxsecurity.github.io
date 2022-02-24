@@ -14,9 +14,9 @@ image:
 ---
 La seguridad informática se ha convertido en uno de los mayores problemas desde sus inicios, y mucho después de la globalización de Internet. Teniendo en cuenta el potencial de las herramientas y aplicaciones que se encuentran en el, cada vez más personas y empresas sienten la necesidad de conectarse con el mundo digital.
 
-## 3.1.- ¿Qué es la segurirdad informatica?
+## 3.1.- ¿Qué es la seguridad informática?
 
-Es el proceso de eludir y verificar el uso no autorizado de sistemas informaticos,con el fin de proteger la confidencialidad e integridad de la información almacenada. 
+Es el proceso de eludir y verificar el uso no autorizado de sistemas informáticos,con el fin de proteger la confidencialidad e integridad de la información almacenada.
 este desea evitar que un atacante use o fuerce el acceso a los recursos de los sistemas con fines maliciosos o para generar ingresos. 
 
 La seguridad informática incluye medidas de seguridad, como antivirus, firewalls y otras medidas definidas por el usuario, como proteger o deshabilitar ciertas características del software.
@@ -27,16 +27,14 @@ La seguridad informática incluye medidas de seguridad, como antivirus, firewall
 
  la seguridad de la informacion es la disciplina encargada de garantizar  la confidencialidad, integridad y disponibilidad de la información. Para lograr este objetivo se apoya en la seguridad informática, lo que significa que a pesar de la diversidad de disciplinas, una no puede prescindir de la otra. Para garantizar la información es necesario cumplir con las normas y establecer lineamientos que se deben seguir en la protección de la información.
 
-
 ## 3.3.- Tipos de analistas
 
 Pentester:
-su objetivo es la empresa en genral
-se realizan en el software que está listo e implementado en el entorno de producción. En algunos casos las pruebas de penetración se realizan en un entorno de prueba, pero en todos los casos al terminar con la codificación y completar el desarrollo de la aplicación. se comienzan las pruebas de penetración. Puede detectar problemas con el código de la aplicación, errores de red y debilidades del sistema operativo
+su objetivo es la empresa en general.S e realizan en el software que está listo e implementado en el entorno de producción. En algunos casos las pruebas de penetración se realizan en un entorno de prueba, pero en todos los casos al terminar con la codificación y completar el desarrollo de la aplicación. se comienzan las pruebas de penetración. Puede detectar problemas con el código de la aplicación, errores de red y debilidades del sistema operativo
 
 AppSec:
-su objetivo es la busqueda de en el codigo fuente.
-consisten en encontrar vulnerabilidades en la capa de la aplicación, no en el sistema operativo ni en la red. por lo general este  se lleva a cabo durante la etapa de desarrollo. Para que los aprendizajes de esta etapa se puedan incorporar en el software para que este sea seguro y protegido.
+su objetivo es la busqueda de en el código fuente.
+consisten en encontrar vulnerabilidades en la capa de la aplicación, no en el sistema operativo ni en la red. Por lo general este  se lleva a cabo durante la etapa de desarrollo. Para que los aprendizajes de esta etapa se puedan incorporar en el software para que este sea seguro y protegido.
 
 Bug Bounty:
 
