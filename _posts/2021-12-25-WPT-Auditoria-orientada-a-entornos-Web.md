@@ -4,8 +4,8 @@ author:
   name: Julio Romo T
   link: https://github.com/TishcaTpx
 date: 2021-12-25 23:22:00 +0800
-categories: [Seguridad]
-tags: [Seguridad]
+categories: [Seguridad,Web]
+tags: [Seguridad,Web]
 image:
   src: 
   width: 800
@@ -15,29 +15,38 @@ image:
 
 ## 7.1.- Estándares de desarrollo y sus características
 
+Los estándares de desarrollo web son las pautas que se utilizan para crear sitios web. Estos estándares han sido desarrollados con el tiempo por muchas personas y organizaciones.
+
+Los desarrolladores web pueden usar estos estándares para garantizar que sus sitios web cumplan con las expectativas de los usuarios y visitantes. También se aseguran de que su sitio web sea accesible para todos los usuarios, independientemente de su dispositivo o navegador.
+
+Existe una herramienta de pentesting, llamada Web Developer, que ayuda a medir qué tan bien se desarrolla un sitio web con respecto a los estándares de desarrollo web. Puede ser utilizado tanto por desarrolladores como por diseñadores para verificar si han seguido todas las pautas al desarrollar un sitio web.
+
 ### 7.1.1.- API REST
 
-Explicar aqui
+Una API de REST, o API de RESTful, es una interfaz de programación de aplicaciones (API o API web) que se ajusta a los límites de la arquitectura REST y permite la interacción con los servicios web de RESTful. El informático Roy Fielding es el creador de la transferencia de estado representacional (REST).
 
 ### 7.1.2.- SOAP
 
-Explicar aqui
+SOAP es un formato de mensaje XML utilizado en interacciones de servicios web. Los mensajes SOAP habitualmente se envían sobre HTTP o JMS, pero se pueden utilizar otros protocolos. El uso de SOAP en un servicio web específico se describe mediante la definición WSDL.
 
 ## 7.2.- Explorando los diferentes tipos de servidores y tecnologías
 
-Explicar Otro post
+Como se aprendio en el apartado de fundamentos de sistemas operativos existe una variedad muy amplia de tecnologias, las cuales debemos saber identificar y las caracteristicas que estas tienen al momento de realizar la explotación.
+Con el fin de tener un mayor impacto y efectividad antes de comenzar la auditoria es necesario verificar  la información obtenida en el reconocimiento sobre las tecnologias para con ello tener bases solidas sobre las vulnerabilidades mas comunes y tener mayor efectividad.
 
 ## 7.3.- Alcance y proceso de una auditoría Web
 
-Explicar Otro post
+El alcance de una auditoria es subjetivo depende de la forma de negocio o contrato establecido, dado que nosotros como auditores no tenemos el conocimiento de que puede llegar a implicar un daño a la continuidad del negocio. Dado esto por entendio
 
 ## 7.4.- Metodologías de seguridad orientadas hacia aplicaciones Web
 
-Explicar Otro post
+El proyecto [Web Security Testing Guide (WSTG)](https://owasp.org/www-project-web-security-testing-guide/) produce el principal recurso de pruebas de ciberseguridad para desarrolladores de aplicaciones web y profesionales de la seguridad.
+
+El WSTG es una guía completa para probar la seguridad de las aplicaciones web y los servicios web. Creado por los esfuerzos de colaboración de profesionales de la seguridad cibernética y voluntarios dedicados, el WSTG proporciona un marco de mejores prácticas utilizado por evaluadores de penetración y organizaciones de todo el mundo.
 
 ## 7.5.- Fases de una auditoría Web
 
-Explicar Otro post
+Lo siguientes temas a ver a continuación, son parte de fases de una auditoría web, a si como algunas tecnicas y herramientas que pueden ser utilizadas.
 
 ### 7.5.1.- Reconocimiento Aplicaciones Web
 
@@ -95,59 +104,170 @@ Favicon es la imagen de la aplicación la cual si se convierte a md5 obtendremos
 
 ### 7.5.1.2.- Técnicas Web
 
+Dentro de la fase de reconocimiento se intenta obtener la mayor parte información orientada a la plataforma a auditar, de lo cual destacan, librerias, software de terceros, frameworks, rutas o endpoints. Con el resultado de ello se procede a identificar vulnerabilidades, con las veriones de software detectadas a si como el realizar una serie de pruebas controladas o detección de patrones en variables y rutas.
+
 #### 7.5.1.2.1.- Waf detection
+
+La detección de waf es una de las etapas mas importante antes de inicializar con la detección u explotación dentro de nuestra auditoria. Esto se debe a que la protección del WAF nos podriamos meter en un problema al mandar nuestros payload ya que estos serian bloqueados.
 
 #### 7.5.1.2.2.- Web vuln scan
 
+El realizar analisis de vulnerabilidades dentro de una plataforma web se basa en la detección de vunerabilidades conocidas o reportadas (CVE), ya sea por vulnerabilidades dentro del framework/librerias utilizadas dentro del desarrollo o las configuraciónes realizadas por los programadores.
+
+Existen tambien algunas herramientas que nos falicitan estas tareas e incluso logran detectar vulnerabilidades que comunmente los especialistas detectan de manera manual mediante el uso de la tecnica [Fuzzing](#75123--fuzzing).
+
 #### 7.5.1.2.3.- Fuzzing
+
+Esta tecnica se basa en enviar datos erroneos a formularios, dentro de una aplicación de una forma automatizada o semiautomatizada mediante el uso de diccionarios.
+Dentro de estos dicciónarios nos encontramos payloads los cuales incluyen, numeros, letras, caracteres especiales hasta código para generar una falla o comportamiento inesperado dentro del sistema.
 
 #### 7.5.1.2.4.- CMS scan
 
+CMS son las siglas de Content Management System (Content Management System). un CMS permite crear, organizar, publicar y eliminar contenido de su sitio web.
+Se utilizan herramientas para escanear la seguridad de sistemas de gestión de contenido (CMS) de una forma automatica y detectar vulnerabiidades, malas configuraciones e incluso la enumeración de usuario..
+
 #### 7.5.1.2.5.- Directory enumeración
+
+El analisis de directorios/Endpoits es fundamental dentro la realización de un penstes bajo el entendimiento de que no todo lo que esta dentro de un sistema es completamente visible o se tiene conocimiento de ello, de esta forma descubriendo nuevos caminos a realizar pruebas y fortalecer.
 
 #### 7.5.1.2.6.- Crawler
 
+Los crawlers son programas que exploran páginas web.
+Su objetivo principal es rastrear cada enlace de cada sitio web. Luego guarda una copia de todo lo que ve en los archivos. De esta manera, se crea un enlace único para reunir millones de páginas web que se encuentran en Internet y todo el contenido de cada página web.
+
 #### 7.5.1.2.7.- Js análisis
+
+El análisis de JS se basa en una tecnica de depuración de codigo para detectar: fallas logicas, peticiones e incluso vulnerabilidades. Dentro de estos archivos tambien podemos detectar Api keys las cuales nos permitan obtener mayor información como Firebase.
 
 #### 7.5.1.2.8.- Cors check
 
+CORS o Cross origin resource sharing es una caracteristica fundamental dentro del desarrollo web, esta caracteristica brinda la capacidad de realizar comunicación entre sistemas. Habilitando el acceso o parcial a la aplicacón, eso se ve reflejado dentro del mundo de las Apis y los permisos de acceso. El detalle de esto es el que pude ser una ventaja a si como un gran riesgo.
+
+Un gran ejemplo de ello solia ser un ataque muy famoso en 2008 - 2010 dentro de Facebook el cual era tan simple como mandar una url maliciosa en la cual dentro del codigo js existiera una petición bien formulada, el alcance que esa falla lograba alcanzar, realizaba un account takeover sin que el usuario realizara nada mas que un solo click.
+
 #### 7.5.1.2.9.- Check robots wayback
+
+Wayback machine es un sitio el cual nos permite regresar años e incluso decadas al pasado, permitiendonos visualizar nuestro objetivo, conocerlo y estudiar la estructura, diseño, programación e incluso viejos archivos. Entre ellos visiatar los Robots los cuales nos brinda información de rutas existentes las cuales no deben ser indexadas por un motor de busqueda.
 
 ### 7.5.1.3.- Osint
 
+Antes de realizar un ataque un pentester debe conocer el entorno destino como las caracteristicas del sistema.
+Cuanta más información específica encuentre el pentester, mayores serán las posibilidades de identificar la forma más fácil y rápida de tener éxito, los servicios de exploración pueden incluir huellas de Internet para investigar objetivos, monitorear recursos, monitorear personal, procesos, escanear información de red y servicios públicos de ingeniería social como mesas de ayuda.
+
 #### 7.5.1.3.1.- Domain info(whois,resistant)
+
+Whois se usa a menudo para identificar y encontrar un nombre de dominio específico, también admite la obtención de direcciones IP y sistemas de intranet propietarios. Para obtener un dominio registrado, Whois proporciona información administrativa, como el registro y la información de contacto de la persona u organización que controla el dominio.
 
 #### 7.5.1.3.2.- Metadata
 
+Los **metadatos** son información relacionada a un recurso , esta información puede contener datos como la procedencia del archivo, fecha de creación, fecha de modificación, autor, dimensiones, modelo de cámara , coordenadas GPS entre otros, estos brindan información valiosa sobre un objetivo ya que  permiten identificar patrones de comportamiento, hábitos, software o tecnología utilizada para la generación de documentos o archivos hasta detalles personales.
+
 #### 7.5.1.3.3.- Emails, users, data leaks
+
+Una violación de datos es la transferencia no intencional de datos a partir de en una organización a un destinatario externo. Si bien esta puede provocar pérdidas financieras inmediatas a una organización.
+
+pwndb es una herramienta empleada para ola busqeda de credenciales o datos filtrados en el servicio onion.
 
 #### 7.5.1.3.4.- Google dorks
 
+Es una tecnica que utiliza la busqueda avanzada de google para la obtencion de agujeros de seguridad en la configuracion
+o en el codigo  interno de los sitios web.
+
 #### 7.5.1.3.5.- Gihub dorks
+
+Es una tecnica muy eficaz debido a que con ella se pueden encontrar informacion confidencial de los repositorios de github.
 
 ### 7.5.2.- Explotación Aplicaciones Web
 
 #### 7.5.2.1- SQL Injection
 
+Una inyección SQL es un recurso en el que se puede encontrar información técnica detallada sobre las diferentes variantes de la vulnerabilidad.  
+En esta vulnerabilidad, el atacante inyectará la declaración sql maliciosa para comprometer la base de datos o el servidor.
+
+|  |  |
+|--|--|
+| M | MYSQL |
+| S | SQL Server |
+| P | PostgreSQL |
+| O | Oracle |
+
+
 #### 7.5.2.2- Autenticacion
+Es la vulnerabilidad más crítica por acceso a datos confidenciales, el proceso para identificar la elegibilidad del usuario antes de acceder a datos confidenciales.
+
+-   Proceso que verifica que un usuario es quien dice ser.
+-   El proceso de verificar que el usuario puede hacer algo.
+    
+Esta vulnerabilidad se crea porque no protege contra ataques de fuerza bruta. Los flujos lógicos o encriptados no válidos, que un atacante pasa por alto se conocen como "validación rota".
+
+- Vulnerabilidad en el inicio de sesión basado en contraseña
+- Vulnerabilidad en la autenticación multifactor
+- Vulnerabilidad en otro mecanismo de autenticación
 
 #### 7.5.2.3- Divulgación de información
+Es la fuga de datos privados o los datos sobre la aplicación o la empresa que no deberían estar disponibles para los usuarios públicos o normales. La información llega a filtrarse cuando no se elimina el contenido interno, mala configuración del sitio web o tecnología utilizada o también el mal diseño y funcionamiento de las aplicaciones.
 
 #### 7.5.2.4- Broken Access Control
 
+Existe una vulnerabilidad de control de acceso roto, si los usuarios realizan o acceden a ciertos recursos que no se encuentra permitido acceder. Cuando un usuario obtiene acceso a alguna funcionalidad a la que no debería poder acceder u obtiene acceso a la funcionalidad de administración, se trata de una escalada vertical de privilegios.
+
 #### 7.5.2.5- IDOR
+
+Se produce cuando una aplicación utiliza la entrada proporcionada por el usuario para acceder a los objetos directamente.  Se asocia comúnmente con la escalada de privilegios horizontal, pero también puede ocurrir en asociación con la escalada de privilegios vertical.
 
 #### 7.5.2.6- Directory Traversal
 
+Esta vulnerabilidad también se conoce como path-traversal que incluye datos de aplicaciones, código, credenciales, archivos sensibles del sistema operativo. Si algunos de estos archivos tienen permiso de escritura, permite al atacante modificar el contenido del archivo y tomar el control total del servidor.
+
 #### 7.5.2.7- Server-side request Forgery (SSRF)
+
+Es una vulnerabilidad de seguridad web que permite a un atacante inducir a la aplicación del lado del servidor a realizar una solicitud HTTP a un dominio arbitrario elegido por el atacante. Provoca que el servidor se conecte al servicio solo interno dentro de la infraestructura de la organización. Podría obligar al servidor a conectarse a un sistema externo arbitrario, para filtrar datos confidenciales, como credenciales de autorización.
+
+El impacto común es el acceso no autorizado a los datos dentro de la organización. En alguna situación, podría permitir que el atacante realice RCE.
 
 #### 7.5.2.8- XXE Injection
 
+También conocido como XXE es una vulnerabilidad de seguridad web que permite a un atacante interferir con el procesamiento de datos XML de una aplicación.  
+Permite al atacante ver archivos en el servidor de aplicaciones e interactuar con cualquier sistema de backend al que tenga acceso la propia aplicación.  Algunas veces el atacante aprovecha los ataques XXE a SSRF.
+
+**Tipos de ataque XXE:**
+
+- Explotación XXE para la obtención de archivos: donde una entidad externa determina el contenido del archivo y lo devuelve en la respuesta de la aplicación.
+- Explotación XXE para realizar un ataque SSRF: cuando se identifica una entidad externa en función de la URL del sistema back-end.
+- Explotación ciega fuera de banda XXE Minería de datos: cuando se transfieren datos confidenciales desde un servidor de aplicaciones a un sistema controlado por un atacante.
+- Explotación Blind XXE para recuperar datos a través de mensajes de error: donde un atacante puede desencadenar un mensaje de error de análisis que contiene datos confidenciales.
+- Algunas aplicaciones tienen una función para cargar imágenes en svg xml, por lo que también pueden ser vulnerables a ataques XXE, SSRF y XSS.
+
 #### 7.5.2.9- Remote Code Execution
+
+La inyección de comandos del sistema operativo también se conoce como inyección de shell o RCE. Esta es una vulnerabilidad que permite a un atacante ejecutar cualquier comando en el sistema y tomar el control total del servidor.
+Un atacante podría explotar una vulnerabilidad de inyección de comandos del sistema operativo para comprometer otras partes de la infraestructura de alojamiento, explotando las relaciones de confianza para apuntar a otros sistemas de la organización.
+Esta vulnerabilidad puede presentarse en cualquier parámetro que se pueda proporcionar directamente al shell interno, pero necesitamos un proxy para verificar que puede interactuar con un parámetro oculto o en una solicitud de API.
+
+| purpose               | linux               | windows        |
+| --------------------- | ------------------- | -------------- |
+| name of current user  | 'whoami'            | 'whoami'       |
+| OS                    | 'uname -a'          | 'ver'          |
+| Network configuration | 'ifconfig'or'ipaddr | 'ipconfig/all' |
+| Network Connection    | 'nestat -an'        | 'netstat -an'  |
+| Running Process       | 'ps -ef'            | 'tasklist'     |
 
 #### 7.5.2.10- BUSINESS LOGIC
 
+Las vulnerabilidades de lógica empresarial son flujos que surgen durante el diseño y la implementación de aplicaciones que permiten que un atacante provoque un comportamiento inesperado. Esto podría permitir potencialmente a los atacantes manipular la funcionalidad legítima para lograr objetivos maliciosos. Los errores de lógica a menudo son invisibles para aquellos que no los buscan explícitamente, porque generalmente no están expuestos a través del uso normal de la aplicación.
+
+- Riesgos
+Las vulnerabilidades de la lógica de negocio a menudo surgen porque los equipos de diseño y desarrollo hacen suposiciones incorrectas sobre cómo los usuarios interactuarán con la aplicación.. (RESUMIR)
+Es posible que los desarrolladores que trabajan en grandes bases de código no tengan un conocimiento profundo de cómo funcionan todas las áreas de una aplicación.
+
+- Impacto
+El impacto de las vulnerabilidades de la lógica de negocio depende de la aplicación y de qué lógica o área de la aplicación se rompe.
+
+
 #### 7.5.2.11 CSRF Cross Site Request For forgery
+Es una vulnerabilidad de seguridad web que permite a un atacante inducir a la aplicación del lado del servidor a realizar una solicitud HTTP a un dominio arbitrario elegido por el atacante. Provoca que el servidor se conecte al servicio solo interno dentro de la infraestructura de la organización. Podría obligar al servidor a conectarse a un sistema externo arbitrario, para filtrar datos confidenciales, como credenciales de autorización.
+-   El impacto común es el acceso no autorizado a los datos dentro de la organización. En alguna situación, podría permitir que el atacante realice RCE.
+
 
 #### 7.5.2.12 WebSockets
 
@@ -171,6 +291,47 @@ Favicon es la imagen de la aplicación la cual si se convierte a md5 obtendremos
 
 #### 7.5.2.22- Web Cache Poisoning
 
+El envenenamiento de la caché web es una técnica avanzada en la que un atacante explota el comportamiento del servidor web y para enviar una respuesta HTTP maliciosa a otros usuarios.  
+En primer lugar, un atacante debe descubrir cómo obtener una respuesta de backend, sin darse cuenta, contiene algún tipo de carga útil maliciosa.  
+Una vez que el primer paso es exitoso, deben asegurarse de que su respuesta se almacene en caché y luego se entregue a la víctima prevista.  
+El caché web infectado puede ser una forma devastadora de lanzar una variedad de ataques que explotan vulnerabilidades como XSS, inyección de JavaScript, redireccionamientos abiertos y más.
+
 #### 7.5.2.23- Attacking GraphQL
 
+SSTI ocurre cuando un atacante puede usar la sintaxis nativa del modelo para inyectar una carga útil maliciosa en un modelo, que se ejecuta en el lado del servidor.
+Ocurre cuando la entrada del usuario se concatena directamente en una plantilla, en lugar de pasarla como datos, lo que permite que un atacante introduzca directivas de plantilla arbitrarias para manipular el motor de plantilla, lo que a menudo les permite tener un control total sobre el servidor. El impacto de SSTI expone a los sitios web a varios ataques dependiendo del motor de plantilla, en algunos casos esta vulnerabilidad no representa un riesgo de seguridad real, pero la mayor parte del impacto de SSTI es muy catastrófico en la fase crítica de la escala un atacante puede llegar al RCE, tomar el control total del servidor. En el caso de que la ejecución remota de código no sea posible, el atacante puede usar un servidor modelo en paralelo como base para muchos otros ataques, obteniendo potencialmente acceso de lectura a datos confidenciales y archivos arbitrarios en el servidor.
+
 ### 7.5.3- Post Explotación Aplicaciones Web
+
+#### Information gathering
+
+Se trata de recopilar la mayor cantidad de información posible sobre el sistema de destino para que podamos definir una estrategia y un plan de acción que se utilizará en los próximos pasos. Algunas cosas interesantes sobre el sistema de destino pueden ser las siguientes:
+
+• Sistema Operativo del Objetivo y el nivel de parche aplicado
+
+• Características de Hardware del objetivo y determinar si se encuentra ejecutándose sobre una máquina virtual o no.
+
+• Listado de Usuarios registrados en el sistema y cuales se encuentran logueados actualmente.
+
+• Listado de Procesos en Ejecución
+
+• Programas instalados en la maquina objetivo y frecuencia de uso
+
+• Tiempo de Actividad/Inactividad del Sistema objetivo.
+
+• Dependiendo del sistema operativo instalado en el objetivo, verificación de ficheros de configuración en busca de posibles vulnerabilidades para seguir explotando.
+
+• Listado de variables de entorno en el sistema objetivo.
+
+• Obtención de los hashes correspondientes a los passwords de los usuarios del sistema objetivo.c  
+
+• Determinar si se tiene acceso a otras máquinas en el segmento de red y si existen directorios compartidos.
+
+##### Privilege Escalation
+
+El informe de privilegios se usa para obtener una cuenta de usuario que tiene todos los privilegios habilitados en el sistema, por lo que tendremos más opciones cuando cambiemos la máquina infectada para que sea controlada por otra máquina, controlar la capa de red y finalmente cortar la red.
+
+#### Persistencia
+
+Son técnicas utilizadas por los atacantes para mantener el acceso cuando ingresan al sistema, ya sea reiniciando el sistema sin importar que este infectado , modificando sus credenciales o realizando acciones maliciosas, otras acciones pueden interrumpir la conexión entre el atacante y la víctima.
+

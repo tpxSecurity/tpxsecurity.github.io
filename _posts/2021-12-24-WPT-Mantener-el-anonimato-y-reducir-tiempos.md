@@ -4,8 +4,8 @@ author:
   name: Julio Romo T
   link: https://github.com/TishcaTpx
 date: 2021-12-25 23:22:00 +0800
-categories: [Seguridad]
-tags: [Seguridad]
+categories: [Seguridad,Web]
+tags: [Seguridad,Web]
 image:
   src: 
   width: 800

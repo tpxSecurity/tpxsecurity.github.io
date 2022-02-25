@@ -3,8 +3,8 @@ title: "4.- Introducción a las pruebas de seguridad"
 author: 
   name: Eduardo Rosales Meoño
 date: 2021-12-28 00:00:00 +0000
-categories: [Seguridad]
-tags: [Seguridad]
+categories: [Seguridad,Web]
+tags: [Seguridad,Web]
 image:
   src: /assets/img/7f81085e1dc317d445db7d06780e0e17.png
   width: 800
