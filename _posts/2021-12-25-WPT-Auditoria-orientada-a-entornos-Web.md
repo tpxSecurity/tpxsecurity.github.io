@@ -23,7 +23,7 @@ Existe una herramienta de pentesting, llamada Web Developer, que ayuda a medir q
 
 ### 7.1.1.- API REST
 
-Una API de REST, o API de RESTful, es una interfaz de programación de aplicaciones (API o API web) que se ajusta a los límites de la arquitectura REST y permite la interacción con los servicios web de RESTful. El informático Roy Fielding es el creador de la transferencia de estado representacional (REST).
+Una API de REST, o API de RESTful, es una interfaz de programación de aplicaciones (API o API web) que se ajustan a los límites de la arquitectura REST y permite la interacción con los servicios web de RESTful. El informático Roy Fielding es el creador de la transferencia de estado representacional (REST).
 
 ### 7.1.2.- SOAP
 
@@ -31,12 +31,12 @@ SOAP es un formato de mensaje XML utilizado en interacciones de servicios web. L
 
 ## 7.2.- Explorando los diferentes tipos de servidores y tecnologías
 
-Como se aprendio en el apartado de fundamentos de sistemas operativos existe una variedad muy amplia de tecnologias, las cuales debemos saber identificar y las caracteristicas que estas tienen al momento de realizar la explotación.
-Con el fin de tener un mayor impacto y efectividad antes de comenzar la auditoria es necesario verificar  la información obtenida en el reconocimiento sobre las tecnologias para con ello tener bases solidas sobre las vulnerabilidades mas comunes y tener mayor efectividad.
+Como se aprendio en el apartado de fundamentos de sistemas operativos existe una variedad muy amplia de tecnologías, las cuales debemos saber identificar y las características que estas tienen al momento de realizar la explotación.
+Con el fin de tener un mayor impacto y efectividad antes de comenzar la auditoría es necesario verificar  la información obtenida en el reconocimiento sobre las tecnologías para con ello tener bases solidas sobre las vulnerabilidades más comunes y tener mayor efectividad.
 
 ## 7.3.- Alcance y proceso de una auditoría Web
 
-El alcance de una auditoria es subjetivo depende de la forma de negocio o contrato establecido, dado que nosotros como auditores no tenemos el conocimiento de que puede llegar a implicar un daño a la continuidad del negocio. Dado esto por entendio
+El alcance de una auditoría es subjetivo depende de la forma de negocio o contrato establecido, dado que nosotros como auditores no tenemos el conocimiento de que puede llegar a implicar un daño a la continuidad del negocio. Dado esto por entendio esto el alcance es una negociación entre lo descubierto dentro de la etapa del reconocimiento y la negociación con el cliente.
 
 ## 7.4.- Metodologías de seguridad orientadas hacia aplicaciones Web
 
@@ -46,7 +46,7 @@ El WSTG es una guía completa para probar la seguridad de las aplicaciones web y
 
 ## 7.5.- Fases de una auditoría Web
 
-Lo siguientes temas a ver a continuación, son parte de fases de una auditoría web, a si como algunas tecnicas y herramientas que pueden ser utilizadas.
+Los siguientes temas a ver a continuación, son parte de las fases de una auditoría web, así como algunas técnicas y herramientas que pueden ser utilizadas.
 
 ### 7.5.1.- Reconocimiento Aplicaciones Web
 
@@ -55,8 +55,8 @@ Durante la fase de recolección de información o mejor conocido como reconocimi
 * Direcciones de IP
 * Topología de la red
 * Tecnologías utilizadas
-* Versiones de librerias
-* Dsispositivos red y más.
+* Versiones de librerías
+* Dispositivos red y más.
 
 Ahora se mostraran las diferentes técnicas para realizar la recopilación de información:
 
@@ -67,7 +67,7 @@ Para realizar este proceso se puede hacer uso de herramientas de internet como [
 
 #### 7.5.1.1.1.- Pasivo
 
-La información se obtiene sin interacción directa con el objetivo mediante el uso de técnicas como búsquedas en Internet, rastreo de redes. Algunas de estas Técnicas involucran el uso de buscadores o indexadores de contenido.
+La información se obtiene sin interacción directa con el objetivo mediante el uso de técnicas como búsquedas en Internet, rastreo de redes. Algunas de estas técnicas involucran el uso de buscadores o indexadores de contenido.
 
 #### 7.5.1.1.2.- Certificados SSL
 
