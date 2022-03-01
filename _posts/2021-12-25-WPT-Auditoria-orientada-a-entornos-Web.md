@@ -63,11 +63,13 @@ Ahora se mostraran las diferentes técnicas para realizar la recopilación de in
 #### 7.5.1.1- Análisis de subdominios
 
 La enumeración de subdominios es el proceso para encontrar subdominios de un objetivo.
-Para realizar este proceso se puede hacer uso de herramientas de internet como [dnsdumpster](https://dnsdumpster.com/), [RapidDNS](https://rapiddns.io/) entre otras, otra forma de enumeración es mediante Técnicas como:
+Para realizar este proceso se puede hacer uso de herramientas de internet como [dnsdumpster](https://dnsdumpster.com/), [RapidDNS](https://rapiddns.io/) entre otras.
 
 #### 7.5.1.1.1.- Pasivo
 
 La información se obtiene sin interacción directa con el objetivo mediante el uso de técnicas como búsquedas en Internet, rastreo de redes. Algunas de estas técnicas involucran el uso de buscadores o indexadores de contenido.
+
+[Tecnicas/Herramientas de enumeración de subdominios pasivas](/posts/WPT-Herramientas-de-analisis-de-subdominios/#análisis-pasivo)
 
 #### 7.5.1.1.2.- Certificados SSL
 
@@ -356,9 +358,9 @@ Se trata de recopilar la mayor cantidad de información posible sobre el sistema
 
 • Dependiendo del sistema operativo instalado en el objetivo, verificación de ficheros de configuración en busca de posibles vulnerabilidades para seguir explotando.
 
-• Listado de variables de entorno en el sistema objetivo.
+• Listado de variables de entorno en el sistema.
 
-• Obtención de los hashes correspondientes a los passwords de los usuarios del sistema objetivo.c  
+• Obtención de los hashes correspondientes a los passwords de los usuarios del sistema.  
 
 • Determinar si se tiene acceso a otras máquinas en el segmento de red y si existen directorios compartidos.
 
