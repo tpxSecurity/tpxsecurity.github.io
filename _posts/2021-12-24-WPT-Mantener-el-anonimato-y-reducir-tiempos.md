@@ -30,17 +30,17 @@ existen diferetes sitios en internet lo cuales nos ayudan a obtener proxys.
 
 Hay muchos servidores proxy disponibles.Aunque realizan esta tarea de diferentes maneras para adaptarse a sus necesidades específicas.
 
-transparente
+Transparente
 Los proxies transparentes,Le dice al servidor web que es un proxy y comunica su dirección IP real, 
 revelando así su identidad al servidor web. Los proxies transparentes no se utilizan por motivos de seguridad o privacidad.
 
-distorcionadores:
+Distorcionadores:
 este tipo de proxy brinda una ip falsaal servidor, aunque se identifica como proxy,la ip falsa proporciona anonimato pero la gan ventaja de estos es que puenden confundir al ssrvidor we con la ubiacion.
 
-anonimos:
+Anonimos:
 los proxys anonimos ocultan la direccion ip a las paginas we que sena visitadas, esto prevee el robo de identudad  y permite la navegacion anonima sin embargo estos se identifan como servidores proxys y algunas podrian negar su acceso.
 
-de gran anonimato
+GAAran anonimato
 Un proxy de gran anonimato utiliza la direccion ip pero este tipo de proxy cambiará periódicamente la dirección IP que comunica a los servidores web de las páginas que visite. Esto dificulta que las páginas web usen técnicas de seguimiento en línea para espiar su actividad de navegación.
 
 ## VPN
@@ -49,6 +49,6 @@ VPN o red privada virtual es la forma más fácil y conveniente para que los usu
 
 ## Red TOR
 
-La red Tor te permite navegar por Internet sin miedo a que te roben o compartan tus datos,
+La red Tor permite navegar por Internet sin miedo a que te roben o compartan tus datos,
 gracias a su sistema de encriptación a todos los niveles y al uso del protocolo SOCKS.
-A través de la red Tor no sera posible rastrear la informacion enviada entre ordenadores y servidores.
+A través de la red Tor no sera posible rastrear la información enviada entre ordenadores y servidores.
