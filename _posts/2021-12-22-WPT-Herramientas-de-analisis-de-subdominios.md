@@ -7,7 +7,7 @@ date: 2021-12-22 00:00:00 +0800
 categories: [Seguridad,Web, Herramientas Web]
 tags: [Seguridad,Web, Herramientas Web]
 image:
-  src: /assets/img/posts/banner-herramientas-subdomain.svg
+  src: /assets/img/posts/banner-herramientas-subdomain.png
   width: 800
   height: 500
   alt: Herramientas de análisis de subdominios
