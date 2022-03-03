@@ -14,7 +14,7 @@ image:
 ---
 
 
-El análisis de directorios/Endpoits es fundamental dentro la realización de un pentest bajo el entendimiento de que no todo lo que esta dentro de un sistema es completamente visible o se tiene conocimiento de ello, de esta forma se van descubriendo nuevos caminos al realizar pruebas y fortalecer.
+El análisis de subdominios es fundamental dentro la realización de un pentest bajo el entendimiento de que no todo lo que esta dentro de un sistema es completamente visible o se tiene conocimiento de ello dentro de la realización de un pentest, de esta forma se van descubriendo nuevos caminos al realizar pruebas y fortalecer la infraestructura.
 
 ## Análisis pasivo
 
