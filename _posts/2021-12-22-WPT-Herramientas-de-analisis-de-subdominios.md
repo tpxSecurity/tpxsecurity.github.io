@@ -122,3 +122,6 @@ DNSRecon es un script en python que nos permite realizar las siguientes técnica
   [*]      SOA jean.ns.cloudflare.com 172.64.32.121
   [*] Enumerating SRV Records
 ```
+
+
+
