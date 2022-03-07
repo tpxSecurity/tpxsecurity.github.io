@@ -12,6 +12,8 @@ image:
   alt: Técnicas y herramientas de análisis web
 ---
 
+Desntro del contenido de este post se exploraran algunas tecniacas y herramientas, las cuales nos facilitaran y apoyaran a la realización de una auditoria de seguridad en la fase de reconocimiento de información web.
+
 ### 7.5.1.2.- Técnicas Web
 
 Dentro de la fase de reconocimiento se intenta obtener la mayor parte información orientada a la plataforma a auditar, de lo cual destacan, librerías, software de terceros, frameworks, rutas o endpoints. Con el resultado de ello se procede a identificar vulnerabilidades, con las versiones de software detectadas así como el realizar una serie de pruebas controladas o detección de patrones en variables y rutas.
